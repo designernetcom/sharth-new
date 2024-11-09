@@ -262,7 +262,7 @@ ul {
   font-weight: 500;
 }
 .header-top-area .right .contact-info li a:hover {
-  color: #f26522;
+  color: #000;
 }
 .header-top-area .right .social-info {
   display: inline-block;
@@ -284,7 +284,7 @@ ul {
   font-size: 18px;
 }
 .header-top-area .right .social-info li a:hover {
-  color: #f26522;
+  color: #000;
 }
 
 /*-- Navbar --*/

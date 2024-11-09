@@ -25,6 +25,7 @@
   .header-top-area {
     text-align: center;
     border-bottom: 1px solid #9d9d9d;
+    display: none;
   }
   .header-top-area .container-fluid {
     padding-left: 15px;
@@ -966,6 +967,7 @@
   .header-top-area {
     text-align: center;
     border-bottom: 1px solid #9d9d9d;
+    display: none;
   }
   .header-top-area .container-fluid {
     padding-left: 15px;
@@ -1575,6 +1577,7 @@
     margin-left: 8px;
     margin-right: 8px;
     font-size: 15px;
+    
   }
   .main-nav .container-fluid {
     padding-left: 20px;
@@ -1689,7 +1692,7 @@
 }
 @media only screen and (max-width: 991px) {
   .mean-container .mean-bar {
-    background-color: #00245a;
+    background-color: #fff;
   }
   .mobile-nav .logo {
     top: 10px;
@@ -1701,7 +1704,7 @@
     top: -10px;
   }
   .mobile-nav.mean-container .mean-nav ul li a.active {
-    color: #f26522;
+    color: #008dd2;
   }
   .navbar-nav {
     height: 402px;
