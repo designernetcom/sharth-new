@@ -32,6 +32,7 @@
         <link rel="stylesheet" href="assets/css/responsive.css">
         <!-- Theme Dark CSS -->
         <link rel="stylesheet" href="assets/css/theme-dark.css">
+        <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <title>Sharth Engineers</title>
 
@@ -61,6 +62,61 @@
 	float:left;
 	margin-bottom:10px;
 }
+.details-head {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.details-head.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.details-head {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.details-head:hover {
+    transform: scale(1.02);
+  
+}
+.details-head {
+   
+    transition: border-color 0.3s ease;
+}
+
+
+.details-head {
+    
+    transition: background-color 0.3s ease;
+}
+
+
+.details-head h2, .details-head p {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.details-head:hover h2 {
+    color: #3498db;
+    transform: rotate(-2deg);
+}
+
+.details-head:hover p {
+    color: #555;
+}
+.details-head {
+   
+   
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.details-head:hover {
+    transform: scale(1.02);
+    
+}
+
+
+
 
         </style>
       
@@ -257,9 +313,9 @@
             </div>
         </div>
         <!-- End Page Title -->
-
+     
         <!-- About -->
-        <section class="about-area pt-100">
+        <!-- <section class="about-area pt-100">
             <div class="container-fluid">
                 <div class="row align-items-center">
 
@@ -279,7 +335,7 @@
 
                             <div class="col-sm-12 col-lg-12">
                                 <div class="about-img">
-                                    <img src="assets/img/ai-generated-8069990_1280.jpg" alt="About">
+                                    <img src="assets/img/rewebsitedatarequirement/Sharth.jpg" alt="About" height="400px;">
                                     
                                 </div>
                             </div>
@@ -290,52 +346,138 @@
 
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- End About -->
-         
-          <!-- Testimonials -->
-        <section class="testimonials-area four ptb-70">
+                <!-- Blog Details -->
+        <div class="blog-details-area pt-100 pb-70">
             <div class="container">
                 <div class="row">
-                    
-                    <div class="col-sm-6 col-lg-6">
-                        <div class="testimonials-item">
-                             <ul class="align-items-center">
-                                <li>
-                                    <i class='bx '>VISION</i>
-                                </li>
+
+                    <div class="col-lg-10">
+                        <div class="details-item">
+
+                            <div class="details-img">
+                                <img src="assets/img/rewebsitedatarequirement/Sharth.jpg" alt="Details">
+                                <ul>
+                                    <li>
+                                        <span>Share:</span>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <i class='bx bxl-facebook'></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <i class='bx bxl-twitter'></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <i class='bx bxl-instagram'></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <i class='bx bxl-linkedin'></i>
+                                        </a>
+                                    </li>
+                                </ul>
                               
-                            </ul>
-                            
-                            <p style="padding-top: 10px;text-align: center;">Implementing Innovative Possibilities In Metal Craftsmanship For Ensuring The Continued Satisfaction Of Our Customers. </p>
-                           
+                            </div>
+
+                            <div class="details-head" data-aos="fade-up" data-aos-duration="800">
+    <h2>Sharth Engineers</h2>
+    <p style="text-transform: capitalize;">
+        <strong>Sharth Engineers</strong> has evolved as a leading provider of top-tier sheet metal solutions, serving diverse industries worldwide. Our commitment to excellence has garnered us numerous certifications and awards, underscoring our dedication to quality and innovation.<br><br>
+        
+        Leveraging high-tech solutions and state-of-the-art machinery, we deliver superior products within tight deadlines. With a deep sense of environmental responsibility, we integrate sustainable practices across our operations, aiming to reduce our ecological footprint. Among our green initiatives is the shift from Diesel DG sets to CNG Gensets, significantly reducing our reliance on non-renewable energy sources.<br><br>
+        
+        Currently, around 30% of our power comes from solar energy—a figure we aim to double by next year, targeting 60% solar power integration.
+    </p>
+    <p style="text-transform: capitalize;">
+        Our commitment to rigorous quality checks and control standards ensures the reliability, durability, and functionality of every product. We offer a comprehensive range of precision services, including laser cutting, CNC bending, oxyfuel cutting, turret punching, and shot blasting, all tailored to meet your specific needs.<br><br>
+        
+        Our team of skilled engineers works tirelessly to achieve customer satisfaction, crafting bespoke solutions that bring your unique vision to life. True to our slogan, “Crafting Ideas into Reality,” we stand by you from concept to completion, ensuring each product meets the highest standards.
+    </p>
+</div>
+
+
+
                         </div>
                     </div>
 
-                    <div class="col-sm-6 col-lg-6">
-                        <div class="testimonials-item">
-                           <ul class="align-items-center">
-                                <li>
-                                    <i class='bx '>Mission</i>
-                                </li>
-                              
-                            </ul>
+                 <div class="product-details-area ptb-100">
+            <div class="container">
+            
+                <div class="review-area">
+               
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="inner">
                             
-                            
-                            <p style="padding-top: 10px;text-align: center;">
-    To Provide Effective And High-Quality Technical Products And Solutions To Our Existing Client Base While Enlarging Our Operations Using Innovative Policies.
-</p>
+                                <div class="row align-items-center">
+        
+        
+                                    <div class="col-lg-6">
+                                        <div class="right">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-lg-12">
+                                                    <div class="review-item two">
+                                                          <div class="row align-items-center">
+                                                            <div class="col-lg-6">
+                                                                <h2>Vision</h2>
+                                                               
+                                                            </div>
+                                                        
+                                                        </div>
+                                                        <p>Implementing Innovative Possibilities In Metal Craftsmanship For Ensuring The Continued Satisfaction Of Our Customers.</p>
+                                                        <br>
+                                                      
+                                                    </div>
+                                                </div>
+                                             
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="col-lg-6">
+                                        <div class="right">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-lg-12">
+                                                    <div class="review-item two">
+                                                          <div class="row align-items-center">
+                                                            <div class="col-lg-6">
+                                                                <h2>Mission</h2>
+                                                               
+                                                            </div>
+                                                        
+                                                        </div>
+                                                        <p>To Provide Effective And High-Quality Technical Products And Solutions To Our Existing Client Base While Enlarging Our Operations Using Innovative Policies.</p>
+                                                      
+                                                    </div>
+                                                </div>
+                                             
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                            </div>
                         </div>
+                       
                     </div>
-
+                </div>
+            </div>
+        </div>
 
                 </div>
-
-           
-
             </div>
-        </section>
-        <!-- End Testimonials -->
+        </div>
+        <!-- End Blog Details --> 
+            
+       
+
+
 
           <!-- Help -->
         <div class="help-area three">
@@ -406,57 +548,6 @@ At Sharth Engineers, we are driven by a simple yet powerful mission: to deliver 
         <!-- End Help -->
 
 
-        <!-- Counter -->
-        <div class="counter-area three pt-100 pb-70">
-            <div class="container">
-                <div class="row">
-                    
-                    <div class="col-6 col-sm-6 col-lg-3">
-                        <div class="counter-item">
-                            <h3>
-                                <span class="odometer" data-count="40">00</span> 
-                                <span class="target">+</span>
-                            </h3>
-                            <p>Years Of Experience</p>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-sm-6 col-lg-3">
-                        <div class="counter-item">
-                            <h3>
-                                <span class="odometer" data-count="25">00</span> 
-                                <span class="target">+</span>
-                            </h3>
-                            <p>Winning Global Awards</p>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-sm-6 col-lg-3">
-                        <div class="counter-item">
-                            <h3>
-                                <span class="odometer" data-count="48">00</span> 
-                                <span class="target">+</span>
-                            </h3>
-                            <p>Completed Total Projects</p>
-                        </div>
-                    </div>
-
-                    <div class="col-6 
-                    col-sm-6 col-lg-3">
-                        <div class="counter-item">
-                            <h3>
-                                <span class="odometer" data-count="80">00</span> 
-                                <span class="target">+</span>
-                            </h3>
-                            <p>Our Happy Clients</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- End Counter -->
-
 
 
 
@@ -464,32 +555,20 @@ At Sharth Engineers, we are driven by a simple yet powerful mission: to deliver 
          <div class="row">
                  <div class="section-title text-center" >
                    
-                    <h2>Certification</h2>
+                    <h2>Certificate</h2>
                 </div>
            
          </div>
          <div class="portfolio-menu mt-2 mb-4">
-            <!-- <ul>
-               <li class="btn btn-outline-dark active" data-filter="*">All</li>
-               <li class="btn btn-outline-dark" data-filter=".gts">certificate name</li>
-               <li class="btn btn-outline-dark" data-filter=".lap">certificate name</li>
-               <li class="btn btn-outline-dark text" data-filter=".selfie">certificate name</li>
-            </ul> -->
+            <ul>
+               
+               <li class="btn btn-outline-dark" data-filter=".gts"> ISO 9001-2015</li>
+               <li class="btn btn-outline-dark" data-filter=".lap">AS 9100D</li>
+               <li class="btn btn-outline-dark text" data-filter=".selfie"> EN15085 -2 Class 1</li>
+               <li class="btn btn-outline-dark text" data-filter=".selfie">  ISO 3834 -2</li>
+            </ul>
          </div>
-         <div class="portfolio-item row">
-            <div class="item gts col-lg-6 col-md-6 col-6 col-sm">
-               <a href="assets/Certificate828129-scaled.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-               <img class="img-fluid" src="assets/Certificate828129-scaled.jpg" alt="">
-               </a>
-            </div>
-            <div class="item gts col-lg-6 col-md-6 col-6 col-sm">
-               <a href="assets/Certificate828129-scaled.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-               <img class="img-fluid" src="assets/Certificate828129-scaled.jpg" alt="">
-               </a>
-            </div>
-     
-
-         </div>
+    
       </div>
       
 
@@ -904,7 +983,25 @@ At Sharth Engineers, we are driven by a simple yet powerful mission: to deliver 
             <i class='bx bxs-up-arrow-alt'></i>
         </div>
         <!-- End Go Top -->
+        <script>// JavaScript to add 'show' class on scroll
+document.addEventListener("DOMContentLoaded", function () {
+    const detailsHead = document.querySelector('.details-head');
 
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                detailsHead.classList.add('show');
+            }
+        });
+    });
+
+    observer.observe(detailsHead);
+});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
         <!-- Essential JS -->
         <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
